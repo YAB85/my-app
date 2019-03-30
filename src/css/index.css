@@ -1,0 +1,382 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width:100%;
+  max-width: 1440px;
+  min-width: 350px;
+}
+
+
+body {
+  overflow-x: hidden;
+  font-family: 'Open Sans', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+p {
+  margin-top: 2em;
+  line-height: 1.75;
+}
+
+a {
+  color: #C49B6C;
+}
+
+a:hover {
+  color: #fec503;
+  text-decoration: none;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    border-radius: 24px !important;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.separator{
+	margin-top: 10em;
+}
+
+/**************************************HEADER STYLE******************************************/
+header {
+  width:100%;
+  min-width: 350px;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+.navbar-dark .navbar-toggler {
+  color: #ffffff !important;
+  border: none;
+}
+
+
+.nav-item a{
+  font-size: 16px;
+  font-weight: bold;
+}
+/**************************************COVER IMG******************************************/
+.cover-img {
+  color: white;
+  background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  min-height: 1000px;
+  height: 65vh;
+  max-height: 1940px;
+  width: 100%;
+}
+
+.cover-img .intro-text {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.cover-img .intro-text .intro-heading-line {  
+    width: 100px;
+    height: 2px;
+    border: solid 0.5px #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: -5px;
+}
+
+.cover-img .intro-text .intro-lead-in {
+  font-size: 36px;
+  line-height: 58px;
+  margin-bottom: 55px;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.cover-img .intro-text .intro-heading {
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.cover-img .btn {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  width: 350px;
+  height: 45px;
+  background: #2387f5;
+  color: #ffffff;
+  border-radius: 100px;
+  text-decoration: none;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+/**************************************MAIN********************************************/
+
+main {
+  background-image: linear-gradient(to bottom, #ffffff, #c4e6f0);
+}
+
+
+/**************************************SEARCH******************************************/
+
+.search{
+	margin-top: -25px;
+	background: #fff;
+	padding: 10px 35px;
+	border: 1px solid #cecece;
+	border-radius: 34px;
+	box-shadow: 0px 5px 10px #adadad;
+}
+.search input{
+	border: none;
+}
+
+.row {
+  display: inline-block;
+}
+
+.text-main {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #565656;
+  float: right;
+}
+
+.text-secondary {
+  font-size: 18px;
+  margin-top: 25px;
+  float: left;
+}
+
+
+/**************************************CATEGORIES******************************************/
+
+.category-item .card-body  {
+  background: none; 
+  border: none;
+}
+
+
+
+/**************************************SLIDER NEWS******************************************/
+.block .text {
+  text-align: center;
+  
+}
+.text_small {
+  color: #000000;
+  padding: 0;
+  font-size: 36px;
+  letter-spacing: -0.9px;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: -155px;
+}
+
+.text_small span {
+  text-decoration:  line-through;
+  padding-left: 10px;
+  color: #9b9b9b;
+}
+
+.text_big {
+  font-family: Arial;
+  font-size: 288px;
+  font-weight: bold;
+  letter-spacing: 3.3px;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(128deg, #91aeec, #7787a9);
+  opacity: 0.09;
+  z-index: 1;
+  margin-top: 0;
+  margin-bottom: -295px;
+}
+.slider{
+  padding: 5px;
+}
+.card-header{
+  padding: 0px !important;
+}
+.card-block{
+	width: 50%;
+}
+ 
+/**************************************HISTORY******************************************/
+.h2 {
+  padding: 25px;
+}
+
+.text {
+  text-align: left;
+  padding: 15px;
+ 
+}
+
+.text .p {
+  padding: 10px;
+}
+
+.btn-block-2 .btn-primary {
+  border: solid 1px #000000 !important;
+  background-color: #c4e6f0;
+  color: black;
+  
+}
+
+
+.history-img {
+  color: white;
+  background-image: url("../img/picture.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 642px;
+  height: 534px;
+  object-fit: contain;
+}
+
+
+
+
+/**************************************SLIDER TRIP******************************************/
+.block2 .text_big {
+    font-size: 250px;
+    opacity: 0.09;
+    z-index: 1;
+    margin-top: 0;
+    margin-bottom: -295px;
+    
+}
+
+
+.slider-trip-item{
+  padding: 50px 0;
+}
+
+.card-trip{
+  width: 258px;
+  height: 170px;
+  background-color: rgba(208, 2, 27, 0.79) !important;
+  color: #fff;
+  margin-top: -15.3em;
+  border-radius: 54px;
+}
+
+.card-trip .card-text{
+  font-size: 7.5px;
+}
+
+.card-trip .btn {
+    font-size: 9px;
+  }
+
+  /**************************************FOOTER******************************************/
+
+  footer {
+    background-color: #2b3a4d;
+    height: 398px;
+  }
+
+  .main-text {
+    border: 2px solid red;
+    margin: 0 auto;
+    padding-top: 25px;
+    text-align: left;
+    
+  }
+
+  .main-text .row {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  .main-text .col {
+    border: 2px solid red;
+    color: #668099;
+    font-size: 24px;
+    font-weight: bold;
+    
+  }
+  .main-text .text-main {
+    width: 161px;
+    height: 27px;
+    font-family: Arial;
+    font-size: 24px;
+    letter-spacing: 5.1px;
+    color: #668099;
+    padding: 25px;
+  }
+
+
+  .main-text .ul {
+   
+    padding: 25px;
+  }
+
+  .main-text .p {
+    width: 292px;
+    font-size: 14px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.92;
+    letter-spacing: -0.3px;
+    color: #a7c2dd;
+    text-align: left;
+    padding-top: 25px;
+  }
+  .li {
+    font-family: Arial;
+    font-size: 14px;
+    list-style-type: circle;
+    line-height: 2.14;
+    letter-spacing: -0.3px;
+    color: #a7c2dd;
+  }
+
+/**************************************AUTHOR******************************************/
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    background-color: #31363c;
+    height: 106px;
+    color: #4d6a8d;
+    text-align: center;
+    padding: 75px;
+    font-size: 25px;
+    font-style: italic;
+  }
