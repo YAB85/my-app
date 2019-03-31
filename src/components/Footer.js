@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Form from './Form'
 
 export default class Footer extends Component{
 	render(){
@@ -9,10 +10,24 @@ export default class Footer extends Component{
 					<div className="row">
 					<div className="col">
 					<div className="text_main">articles</div>
-					<div className="list ul">
-						<div className="list li">Exploring the food in the heart of the London</div>
-						<div className="li"></div>
-					</div>
+					<ul className="list ul">
+						<li className="list li">Exploring the food in the 
+						heart of the London
+						<li className="none_list">
+						<span className="text"> by Felecia Wilson | 25 Aug, 2016</span> 
+						</li>
+						</li>
+						<li className="list li">The history and architecture of England
+						<li className="none_list">
+						<span className="text"> by Felecia Wilson | 25 Aug, 2016</span> 
+						</li>
+						</li>
+						<li className="list li">Exploring the food in the heart of the London
+						<li className="none_list">
+						<span className="text"> by Felecia Wilson | 25 Aug, 2016</span> 
+						</li>
+						</li>
+					</ul>
 					</div>
 					
 					<div className="col">
@@ -31,8 +46,13 @@ export default class Footer extends Component{
 					</div>
 					</div>
 					
-					<div className="col">newsletter</div>
+					<div className="col">
+					<div className="text_main">newsletter</div>
+					<div className="p">Get updates about new tours, 
+					travel tips, photo guides and more !</div>
+					<Form />
 					
+					</div>
 					
 					</div>
 				</div>

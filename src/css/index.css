@@ -349,7 +349,7 @@ main {
   }
 
   .main-text .p {
-    width: 292px;
+    width: 315px;
     font-size: 14px;
     font-family: Arial;
     font-size: 12px;
@@ -359,16 +359,30 @@ main {
     text-align: left;
     padding-top: 25px;
   }
-  .li {
+   
+  .list .li {
     font-family: Arial;
     font-size: 14px;
-    list-style-type: circle;
     line-height: 2.14;
     letter-spacing: -0.3px;
     color: #a7c2dd;
+    list-style-type: disc;
+    padding-bottom: 25px;
+    
   }
 
-/**************************************AUTHOR******************************************/
+  .none_list {
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    color: #567392;
+    list-style-type: none;
+    margin-left: 15px;
+  }
+
+
+
+  /**************************************AUTHOR******************************************/
   .copyright {
     display: flex;
     flex-direction: column;
