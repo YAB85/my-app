@@ -10,6 +10,13 @@ import img_museum from '../img/museum.png'
 import img_ticket from '../img/ticket.png'
 import img_coffee from '../img/coffee-cup.png'
 
+const imgUrl = {
+  width: "300px",
+  margin: "30px auto",
+  backgroundColor: "#44014C",
+  minHeight: "200px",
+  boxSizing: "border-box"
+}
 
 
 export default class MainContent extends Component{
@@ -124,7 +131,7 @@ export default class MainContent extends Component{
 			{/**  HISTORY  */}
 			<div className="separator"></div>
 			<div className="row">
-			<div className="col">
+			<div className="col col-sm col-md">
 			<div className="h2">About London</div>
 			<div className="col">
 			<div className="text">
@@ -139,7 +146,7 @@ export default class MainContent extends Component{
 			</div>
 			</div>			
 			<div className="h2">HISTORY</div>
-			<div className="col">
+			<div className="col col-sm col-md">
 			<div className="text">
 			<div className="p">
 			London's history stretches back over thousands of years, and the city boasts four 
@@ -153,7 +160,7 @@ export default class MainContent extends Component{
 			</div>
 
 			
-			<div className="col">
+			<div className="col col-sm">
 			<div className="history-img"></div>
 			</div>
 			

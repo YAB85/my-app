@@ -183,8 +183,15 @@ main {
 .category-item .card-body  {
   background: none; 
   border: none;
+  text-align: center;
+  border: 2px solid red;
+  background-color: #567392;
+  
 }
-
+.category-item  {
+  border: 2px solid red;
+  background-color: #567392;
+}
 
 
 /**************************************SLIDER NEWS******************************************/
@@ -225,13 +232,16 @@ main {
   margin-bottom: -295px;
 }
 .slider{
-  padding: 5px;
+  padding: 2px;
+  
 }
 .card-header{
   padding: 0px !important;
+  
 }
 .card-block{
-	width: 50%;
+  width: 50%;
+  background-color: #ECF7FA;
 }
  
 /**************************************HISTORY******************************************/
@@ -308,7 +318,8 @@ main {
 
   footer {
     background-color: #2b3a4d;
-    height: 398px;
+    height: 100%;
+    min-height: 398px;
   }
 
   .main-text {
@@ -387,7 +398,10 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #31363c;
-    height: 106px;
+    width: 100%;
+    min-width: 100px;
+    height: 100%;
+    min-height: 106px;
     color: #4d6a8d;
     text-align: center;
     padding: 75px;

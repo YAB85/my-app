@@ -8,7 +8,7 @@ export default class Footer extends Component{
 				<div className="main-text">
 					
 					<div className="row">
-					<div className="col">
+					<div className="col col-sm">
 					<div className="text_main">articles</div>
 					<ul className="list ul">
 						<li className="list li">Exploring the food in the 
@@ -30,7 +30,7 @@ export default class Footer extends Component{
 					</ul>
 					</div>
 					
-					<div className="col">
+					<div className="col col-sm">
 					<div className="text_main">about us</div>
 					<div className="p">
 					London, the capital of England and 
@@ -46,7 +46,7 @@ export default class Footer extends Component{
 					</div>
 					</div>
 					
-					<div className="col">
+					<div className="col col-sm">
 					<div className="text_main">newsletter</div>
 					<div className="p">Get updates about new tours, 
 					travel tips, photo guides and more !</div>
