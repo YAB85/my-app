@@ -180,19 +180,34 @@ main {
 
 /**************************************CATEGORIES******************************************/
 
+.ImageFilter-svg {
+  
+  border: 2px solid red;
+}
+
+.card {
+  word-wrap: none;
+}
 .category-item .card-body  {
   background: none; 
   border: none;
   text-align: center;
   border: 2px solid red;
-  background-color: #567392;
-  
+ 
 }
+
 .category-item  {
   border: 2px solid red;
   background-color: #567392;
 }
 
+.card image {
+  width: 75px;
+  height: 75px;
+  
+  
+  
+}
 
 /**************************************SLIDER NEWS******************************************/
 .block .text {
