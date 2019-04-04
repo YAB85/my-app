@@ -22,11 +22,11 @@ export default class Form extends React.Component {
       return (
         <form onSubmit={this.handleSubmit}>
           <label>
-            <input type="text" value={this.state.value} onChange={this.handleChange} />
+            <input className="" type="text" value={this.state.value} onChange={this.handleChange} />
           </label>
           <label>
             <input type="text" value={this.state.value} onChange={this.handleChange} />
-          </label>
+          </label><br/>
           <input type="submit" value="Submit" />
         </form>
       );

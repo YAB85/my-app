@@ -181,33 +181,21 @@ main {
 /**************************************CATEGORIES******************************************/
 
 .ImageFilter-svg {
-  
-  border: 2px solid red;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-left: 30px;
+}
+.category-item {
+  background-color: transparent !important;
 }
 
-.card {
-  word-wrap: none;
-}
-.category-item .card-body  {
-  background: none; 
-  border: none;
-  text-align: center;
-  border: 2px solid red;
- 
+image {
+  width: 100px;
+  height: 100px;
 }
 
-.category-item  {
-  border: 2px solid red;
-  background-color: #567392;
-}
 
-.card image {
-  width: 75px;
-  height: 75px;
-  
-  
-  
-}
+
 
 /**************************************SLIDER NEWS******************************************/
 .block .text {
@@ -298,13 +286,18 @@ main {
 
 
 /**************************************SLIDER TRIP******************************************/
+.block2 {
+  width: 100%;
+  max-height: 750px;
+  height: 100%;
+}
+
 .block2 .text_big {
     font-size: 250px;
     opacity: 0.09;
     z-index: 1;
     margin-top: 0;
     margin-bottom: -295px;
-    
 }
 
 
@@ -406,9 +399,16 @@ main {
     margin-left: 15px;
   }
 
+/****************************************FORM********************************************/
+form{
+  background-color: red;
+}
 
-
-  /**************************************AUTHOR******************************************/
+input {
+  width: 300px;
+  height: 40px;
+}
+/**************************************AUTHOR******************************************/
   .copyright {
     display: flex;
     flex-direction: column;

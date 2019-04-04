@@ -10,14 +10,6 @@ import img_museum from '../img/museum.png'
 import img_ticket from '../img/ticket.png'
 import img_coffee from '../img/coffee-cup.png'
 
-const imgUrl = {
-  width: "300px",
-  margin: "30px auto",
-  backgroundColor: "#44014C",
-  minHeight: "200px",
-  boxSizing: "border-box"
-}
-
 
 export default class MainContent extends Component{
 	render(){
@@ -168,9 +160,14 @@ export default class MainContent extends Component{
 
 			{/**  SLIDER_TRIPS  */} 
 			<div className="separator"></div>
+				<div className="row">
+				<div className="col-lg-12 col-sm-12">
 				<div className="block2 text">
 				<div className="text_small">Select your<span>favorite trip</span></div>
 				<div className="text_big">select trip</div>
+				
+				</div>
+				</div>
 				</div>
 
 				<div className="separator"></div>
