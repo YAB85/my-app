@@ -331,7 +331,6 @@ image {
   }
 
   .main-text {
-    border: 2px solid red;
     margin: 0 auto;
     padding-top: 25px;
     text-align: left;
@@ -345,7 +344,6 @@ image {
   }
 
   .main-text .col {
-    border: 2px solid red;
     color: #668099;
     font-size: 24px;
     font-weight: bold;
@@ -363,8 +361,7 @@ image {
 
 
   .main-text .ul {
-   
-    padding: 25px;
+      padding: 25px;
   }
 
   .main-text .p {
@@ -397,17 +394,52 @@ image {
     color: #567392;
     list-style-type: none;
     margin-left: 15px;
-  }
+}
 
 /****************************************FORM********************************************/
-form{
-  background-color: red;
+.form_request {
+  margin: 25px;
 }
 
-input {
+label {
+  margin-bottom: 0 !important;
+}
+.form_request__field {
+  height: 40px;
+  width: 300px;
+  background-color: transparent;
+  border: 0.2px solid #979797;
+  border-bottom: solid 1px #979797;
+  background-color: #2b3a4d;
+  color: #9cbada;
+  font-size: 14px;
+}
+
+.form_request__field:active,
+.form_request__field:hover {
+  border: 0.1px;
+  border-bottom: 2px solid blueviolet;
+}
+
+
+.button__form_request {
   width: 300px;
   height: 40px;
+  margin-top: 35px;
+  border: solid 0.2px #bccee2;
+  background-color: transparent;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ffffff;
 }
+.button__form_request:active,
+.button__form_request:hover { 
+  border: solid 0.2px blueviolet;
+}
+
 /**************************************AUTHOR******************************************/
   .copyright {
     display: flex;
